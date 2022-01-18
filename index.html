@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./styles/calculator.css" />
+    </head>
+    <body>
+        <div class="calculator-base">
+            <h1>Calculator</h1>
+
+            <div class="div-Calculator">
+                <div class="calculator-head">
+                    <input
+                        type="text"
+                        id="calculator"
+                        maxlength="20"
+                        placeholder="0"
+                        disabled
+                    />
+                </div>
+
+                <div class="body">
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t2"
+                        value="C"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t2"
+                        value="+/-"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t2"
+                        value="%"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t1"
+                        value="/"
+                    />
+                </div>
+
+                <div class="body">
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="7"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="8"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="9"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t1"
+                        value="*"
+                    />
+                </div>
+
+                <div class="body">
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="4"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="5"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="6"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t1"
+                        value="+"
+                    />
+                </div>
+
+                <div class="body">
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="1"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="2"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="3"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t1"
+                        value="-"
+                    />
+                </div>
+
+                <div class="body">
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="0"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="."
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button"
+                        value="DEL"
+                    />
+                    <input
+                        onclick="calculate(this);"
+                        type="button"
+                        class="button t1"
+                        value="="
+                    />
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/calculator.js"></script>
+    </body>
+</html>
